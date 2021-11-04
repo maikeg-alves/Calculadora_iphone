@@ -1,0 +1,119 @@
+body {
+    background: rgb(8, 8, 8);
+    font-family: 'Manrope', sans-serif;
+    color: rgb(253, 253, 253);
+    font-weight: lighter;
+    scroll-behavior:unset;
+    overflow: hidden;
+}
+
+section {
+     width: 367px;
+     height: 619px;
+     margin-left: auto;
+     margin-right: auto;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+}
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    font-size: 53pt;
+    height: 47px;
+    width: 308px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+input {
+    padding: 28px;
+    border-radius: 40px;
+    width: 78px;
+    height: 78px;
+    border: 0px;
+    cursor: pointer;
+    font-size: 19px;
+}
+#bt {
+    text-align: center;
+    
+}
+#coluna1, #coluna2, #coluna3, #coluna4 {
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#btn1,#btn2,#btn3{
+   background: #a5a5a5;
+   color: black;
+   
+}
+#btn4,#btn8,#btn12,#btn16,#btn18{
+    background: #ff9f0c;
+    color: rgb(247, 247, 247);
+    
+ }
+ #btn5,#btn6,#btn7,#btn9,#btn10,#btn11,#btn13,#btn14,#btn15,#btn17{
+    background: #333333;
+    color: rgb(247, 247, 247);
+    
+ }
+ #coluna5 {
+    margin-left: auto;
+    margin-right: auto;
+ }
+#zero{
+    padding: 20px 90px 20px;
+    width: 157px;
+    height: 68px;
+    margin-bottom: 0px;
+    border-bottom-width: 3px;
+    padding-top: 25px;
+    padding-bottom: 23px;
+    background: #333333;
+    color: rgb(247, 247, 247);
+    margin-right: 10px;
+}
+#btn17 {
+    margin-right: 10px;
+}
+#btn1,#btn2,#btn3,#btn4,#btn5,#btn6,#btn7,#btn8,#btn9,#btn10,
+#btn11,#btn12,#btn13,#btn14,#btn15,#btn16{
+    margin-left: 10px;
+}
+
+#tela{
+    margin: auto;
+    color: #fdfdfd;
+    margin-right: auto;
+    margin-left: auto;
+    background: #080808;
+    border-radius: inherit;
+    margin-top: 16px;
+    font-size: 60pt;
+    text-align: end;
+    cursor: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 294px;
+}
+#tela2{
+    margin: auto;
+    color: #fdfdfd;
+    margin-right: auto;
+    margin-left: auto;
+    background: rgb(8, 8, 8);;
+    border-radius: inherit;
+    margin-top: -136px;
+    font-size: 60pt;
+    text-align: end;
+    cursor: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 294px;
+}

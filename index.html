@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap" rel="stylesheet">
+    <title>Calculadora </title>
+</head>
+<body> 
+    <input type="text" disabled='disabled' id="tela" name="tela" maxlength="18" value="">
+   
+    <section id="sel">   
+          <div id="coluna1"> 
+              <input id="btn1" type="button" value="AC" onclick="reset()">
+              <input id="btn2" type="button" value="+/-">
+              <input id="btn3"type="button" value=" % ">
+              <input id="btn4" type="button" value=" ÷ " onclick="operador('/')">
+          </div>
+
+          <div id="coluna2">
+              <input id="btn5" type="button" value="7" onclick="botao(7)"> 
+              <input id="btn6" type="button" value="8" onclick="botao(8)">
+              <input id="btn7" type="button" value="9" onclick="botao(9)">
+              <input id="btn8" type="button" value="X" onclick="operador('*')">
+          </div>
+
+          <div id="coluna3">
+              <input id="btn9" type="button"  value="4"  onclick="botao(4)">
+              <input id="btn10" type="button" value="5" onclick="botao(5)">
+              <input id="btn11" type="button" value="6" onclick="botao(6)">
+              <input id="btn12" type="button" value="-" onclick="operador('-')">
+          </div>
+
+          <div id="coluna4">
+              <input id="btn13" type="button" value="1" onclick="botao(1)">
+              <input id="btn14" type="button" value="2" onclick="botao(2)">
+              <input id="btn15" type="button" value="3" onclick="botao(3)">
+              <input id="btn16" type="button" value="+" onclick="operador('+')">
+          </div>
+
+          <div id="coluna5">
+              <input type="button" value="0" id="zero" onclick="botao(0)">
+              <input id="btn17" type="button" value=",">
+              <input id="btn18" type="button" value="=" onclick="somar()">
+          </div> 
+    </section>
+    
+    <script src="app.js"></script>
+</body>
+</html>
